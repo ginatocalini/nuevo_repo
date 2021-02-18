@@ -1,12 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prueba</title>
-</head>
+    <title>Inicio</title>
+    <meta name="description" content="Hocus Pocus es un emprendimiento que surgió debido a nuestro amor por los cactus y suculentas. Encontrá acá info sobre sus características, cuidados y tips.">
+    <meta name="keywords" content="CACTUS, SUCULENTAS, EMPRENDIMIENTO, CONSEJOS, CUIDADO, PLANTAS, HOCUS POCUS">
+
+    <!-- Boostrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- íconos -->
+    <script src="https://kit.fontawesome.com/0e1135eec9.js" crossorigin="anonymous"></script>
+
+  </head>
+
 <body>
-    
-</body>
+   
+  <!-- Menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img src="./img/HP-logo-01.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./views/historia.html">Nuestra historia</a>
+        </li>
+       <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="./views/catalogo.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Catálogo
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Cereus tetragonus</a>
+            <a class="dropdown-item" href="#">Haworthia cymbiformis</a>
+            <a class="dropdown-item" href="#">Graptoveria titubans</a>
+            <a class="dropdown-item" href="#">Sedum emarginatum</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link" href="./views/novedades.html">Novedades</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./views/contacto.html">Contacto</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Slider -->
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/slide-1.png" class="d-block w-100" alt="Cactus">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slide-2.png" class="d-block w-100" alt="Suculenta">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/slide-3.png" class="d-block w-100" alt="Cactus y sucus">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+<!-- Historia // BEM -->
+<div class="historia">
+  <div class="historia__contenido">
+    <h3 class="historia__titulo">Nuestra historia</h3>
+    <p class="historia_parrafo">Somos una pequeña empresa argentina dedicada al cuidado de estas plantitas. Nacimos de un pensamiento que, con el paso del tiempo, se convirtió en un sueño hecho realidad: trabajar en algo que realmente nos apasiona.
+    Vivimos enamorados de lo que hacemos, de entrar en el invernadero y verlo repleto de cactus y suculentas que desean encontrar un nuevo hogar, además de informarte sobre sus cuidados y detalles a tener en cuenta a la hora de tener una de estas plantitas.
+    </p></div>
+  <div class="historia"><img class="historia__imagen" src="./img/cactus-suculentas-1.jpg" alt="Cactus & suculentas"></div>
+</div>
+
+<!-- Catálogo -->
+
+<div class="catalogoIndex">
+  <div class="catalogoIndex1">
+    <div class="card" style="width: 18rem;">
+      <img src="./img/Catalogo-01.png" class="card-img-top" alt="Cactus">
+      <div class="card-body">
+        <p class="card-text">Cereus tetragonus</p>
+        <a href="#" class="btn btn-primary">Más info</a>
+      </div>
+    </div></div>
+
+  <div class="catalogoIndex2">
+    <div class="card" style="width: 18rem;">
+  <img src="./img/Catalogo-02.png" class="card-img-top" alt="Cactus">
+  <div class="card-body">
+    <p class="card-text">Cereus tetragonus</p>
+    <a href="#" class="btn btn-primary">Más info</a>
+  </div>
+</div></div>
+
+  <div class="catalogoIndex3">
+    <div class="card" style="width: 18rem;">
+    <img src="./img/Catalogo-03.png" class="card-img-top" alt="Cactus">
+    <div class="card-body">
+      <p class="card-text">Cereus tetragonus</p>
+      <a href="#" class="btn btn-primary">Más info</a>
+    </div>
+  </div></div>
+
+  <div class="catalogoIndex4">
+    <div class="card" style="width: 18rem;">
+  <img src="./img/Catalogo-04.png" class="card-img-top" alt="Cactus">
+  <div class="card-body">
+    <p class="card-text">Cereus tetragonus</p>
+    <a href="#" class="btn btn-primary">Más info</a>
+  </div>
+</div></div>
+</div>
+
+<br>
+<br>
+
+<!-- Novedades // BEM -->
+<div class="novedades">
+  <div class="novedades__col1"><h2 class="novedades__titulo">Novedades</h2></div>
+  <div class="novedades__col2"><img class="novedades__imagen" src="./img/Novedades-1.png" alt="Cactus"><h4 class="novedades__subtitulo">La particular belleza de los cactus y de sus flores</h4></div>
+  <div class="novedades__col3"><img class="novedades__imagen" src="./img/Novedades-2.png" alt="Suculentas"><h4 class="novedades__subtitulo">Paso a paso, cómo hacer un terrario de suculentas</h4></div>
+</div>
+
+<!-- Newsletter -->
+<nav class="seccionNewsletter">
+<h3>¡Suscribite al Newsletter!</h3>
+
+<form action="">
+
+    <label for="mail">Mail: </label>
+    <input type="email">
+    <br>
+    <br>
+    <input class="boton-nl" type="submit">
+
+</form>
+</nav>
+
+<!-- Footer // BEM -->
+<div class="footer">
+  <div class="footer__col-1">
+   <h5 class="footer__titulo">Sobre nosotros</h5>
+   <p class="footer__parrafo">Somos una pequeña empresa argentina dedicada al cuidado de estas plantitas. Nacimos de un pensamiento que, con el paso del tiempo, se convirtió en un sueño hecho realidad: trabajar en algo que realmente nos apasiona.</p>
+</div>
+  <div class="footer__col-2">
+    <h5 class="footer__titulo">Menú</h5> 
+      <li class="footer__lista"></li>
+      <li><a class="footer__item" href="./index.html">Inicio</a></li>
+      <li><a class="footer__item" href="./views/historia.html">Nuestra historia</a></li>
+      <li><a class="footer__item" href="./views/catalogo.html">Catálogo</a></li>
+      <li><a class="footer__item" href="./views/novedades.html">Novedades</a></li>
+      <li><a class="footer__item" href="./views/contacto.html">Contacto</a></li>  
+    </ul>
+
+  </div>
+  <div class="footer__col-3">
+    <h5 class="footer__titulo">¡Seguinos en redes!</h5>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    @hocuspocus.ar
+  </div>
+</div>
+
+<!-- Copyright // BEM -->
+<div class="copyright">
+<p class="copyright__parrafo">Cactus & Suculentas Copyright 2021 // Todos los derechos reservados</p>
+</div>
+
+ </body>
+
+ <!-- JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
 </html>
